@@ -1,0 +1,22 @@
+@import "./components/reset.scss";
+@import "@/styles/components/fonts.scss";
+
+body {
+  background-color: $yellow;
+  font-family: "Proximanova";
+}
+
+.container {
+  margin: 45px auto;
+  width: 1220px;
+  background-color: $white;
+  padding: 55px 60px 100px 60px;
+  border-radius: 10px;
+}
+
+.title {
+  color: $black;
+  font-size: 32px;
+  font-weight: 700;
+  letter-spacing: 0.32px;
+}
